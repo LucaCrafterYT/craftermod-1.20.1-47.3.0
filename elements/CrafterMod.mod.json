@@ -1,0 +1,11 @@
+{
+  "_fv": 69,
+  "_type": "tab",
+  "definition": {
+    "name": "Crafter Mod",
+    "icon": {
+      "value": "CUSTOM:CraftaniumIngot"
+    },
+    "showSearch": false
+  }
+}

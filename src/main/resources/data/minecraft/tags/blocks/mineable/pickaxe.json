@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "craftermod:block_of_craftanium",
+    "craftermod:craftanium_ore",
+    "craftermod:deepslate_craftanium_ore"
+  ]
+}

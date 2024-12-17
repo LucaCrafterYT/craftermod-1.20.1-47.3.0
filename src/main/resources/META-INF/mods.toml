@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="craftermod"
+version="0.1"
+displayName="Crafter Mod"
+displayURL="https://linktr.ee/lucacrafteryt"
+logoFile="logo.png"
+credits=":3"
+authors="LucaCrafterYT"
+description="Crafter Mod. Nothing Much."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.craftermod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

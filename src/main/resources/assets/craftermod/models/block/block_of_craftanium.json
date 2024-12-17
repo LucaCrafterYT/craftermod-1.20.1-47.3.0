@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "craftermod:block/craftanium_block",
+    "particle": "craftermod:block/craftanium_block"
+  },
+  "render_type": "solid"
+}

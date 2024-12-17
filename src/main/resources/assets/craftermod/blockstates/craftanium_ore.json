@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "craftermod:block/craftanium_ore"
+    }
+  }
+}

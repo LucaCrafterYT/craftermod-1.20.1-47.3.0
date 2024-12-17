@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "craftanium",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "craftermod:block_of_craftanium"
+    }
+  ],
+  "result": {
+    "item": "craftermod:craftanium_ingot",
+    "count": 9
+  }
+}

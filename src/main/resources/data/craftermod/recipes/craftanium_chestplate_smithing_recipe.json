@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "craftermod:craftanium_upgrade_smithing_template"
+  },
+  "base": {
+    "item": "minecraft:iron_chestplate"
+  },
+  "addition": {
+    "item": "craftermod:craftanium_ingot"
+  },
+  "result": {
+    "item": "craftermod:craftanium_armor_chestplate"
+  }
+}

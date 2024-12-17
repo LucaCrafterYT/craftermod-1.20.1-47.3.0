@@ -1,0 +1,22 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "craftanium",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CraftaniumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CraftaniumIngot"
+    },
+    "name": "craftanium_ingot_smelting_stone",
+    "namespace": "mod"
+  }
+}

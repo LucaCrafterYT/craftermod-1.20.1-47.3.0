@@ -1,0 +1,532 @@
+{
+  "mod_elements": [
+    {
+      "name": "CraftaniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/item/craftanium_ore.json",
+          "src/main/resources/data/craftermod/forge/biome_modifier/craftanium_ore_biome_modifier.json",
+          "src/main/resources/data/craftermod/worldgen/configured_feature/craftanium_ore.json",
+          "src/main/resources/data/craftermod/loot_tables/blocks/craftanium_ore.json",
+          "src/main/resources/assets/craftermod/blockstates/craftanium_ore.json",
+          "src/main/java/net/lucacrafter/craftermod/block/CraftaniumOreBlock.java",
+          "src/main/resources/assets/craftermod/models/block/craftanium_ore.json",
+          "src/main/resources/data/craftermod/worldgen/placed_feature/craftanium_ore.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "DeepslateCraftaniumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_craftanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/loot_tables/blocks/deepslate_craftanium_ore.json",
+          "src/main/resources/assets/craftermod/models/block/deepslate_craftanium_ore.json",
+          "src/main/resources/assets/craftermod/models/item/deepslate_craftanium_ore.json",
+          "src/main/java/net/lucacrafter/craftermod/block/DeepslateCraftaniumOreBlock.java",
+          "src/main/resources/data/craftermod/worldgen/placed_feature/deepslate_craftanium_ore.json",
+          "src/main/resources/assets/craftermod/blockstates/deepslate_craftanium_ore.json",
+          "src/main/resources/data/craftermod/worldgen/configured_feature/deepslate_craftanium_ore.json",
+          "src/main/resources/data/craftermod/forge/biome_modifier/deepslate_craftanium_ore_biome_modifier.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "CraftaniumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumIngotItem.java",
+          "src/main/resources/assets/craftermod/models/item/craftanium_ingot.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CrafterMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BlockOfCraftanium",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_craftanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/block/block_of_craftanium.json",
+          "src/main/resources/assets/craftermod/models/item/block_of_craftanium.json",
+          "src/main/java/net/lucacrafter/craftermod/block/BlockOfCraftaniumBlock.java",
+          "src/main/resources/assets/craftermod/blockstates/block_of_craftanium.json",
+          "src/main/resources/data/craftermod/loot_tables/blocks/block_of_craftanium.json"
+        ]
+      },
+      "path": "~/Block"
+    },
+    {
+      "name": "CraftaniumBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_block_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumIngotCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ingot_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_ingot_crafting.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumIngotSmeltingStone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ingot_smelting_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_ingot_smelting_stone.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumIngotSmeltingDeepslate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ingot_smelting_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_ingot_smelting_deepslate.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumIngotBlastingStone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ingot_blasting_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_ingot_blasting_stone.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumIngotBlastingDeepslate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ingot_blasting_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_ingot_blasting_deepslate.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "RawCraftanium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_craftanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/item/raw_craftanium.json",
+          "src/main/java/net/lucacrafter/craftermod/item/RawCraftaniumItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CrafterPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/crafter_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CrafterAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/crafter_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CrafterSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/crafter_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CrafterShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/crafter_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/item/craftanium_armor_chestplate.json",
+          "src/main/resources/assets/craftermod/models/item/craftanium_armor_helmet.json",
+          "src/main/resources/assets/craftermod/models/item/craftanium_armor_leggings.json",
+          "src/main/resources/assets/craftermod/models/item/craftanium_armor_boots.json",
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumArmorItem.java"
+        ]
+      },
+      "path": "~/Armor"
+    },
+    {
+      "name": "CraftaniumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/item/craftanium_sword.json",
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumSwordItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CraftaniumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumAxeItem.java",
+          "src/main/resources/assets/craftermod/models/item/craftanium_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CraftaniumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumPickaxeItem.java",
+          "src/main/resources/assets/craftermod/models/item/craftanium_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CraftaniumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/item/craftanium_shovel.json",
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CraftaniumRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ring",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumRingItem.java",
+          "src/main/resources/assets/craftermod/models/item/craftanium_ring.json"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CraftaniumRingRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_ring_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lucacrafter/craftermod/procedures/CraftaniumRingRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "CraftaniumUpgradeSmithingTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_upgrade_smithing_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/craftermod/models/item/craftanium_upgrade_smithing_template.json",
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumUpgradeSmithingTemplateItem.java"
+        ]
+      },
+      "path": "~/Item"
+    },
+    {
+      "name": "CraftaniumHelmetSmithingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_helmet_smithing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_helmet_smithing_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumChestplateSmithingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_chestplate_smithing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_chestplate_smithing_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumLeggingsSmithingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_leggings_smithing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_leggings_smithing_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumBootsSmithingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_boots_smithing_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_boots_smithing_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:CraftaniumOre",
+      "~CUSTOM:DeepslateCraftaniumOre",
+      "~CUSTOM:BlockOfCraftanium"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:BlockOfCraftanium",
+      "~CUSTOM:CraftaniumOre",
+      "~CUSTOM:DeepslateCraftaniumOre"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:CraftaniumPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:CraftaniumAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:CraftaniumSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:CraftaniumShovel"
+    ],
+    "BLOCKS:minecraft:beacon_base_blocks": [
+      "CUSTOM:BlockOfCraftanium"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:CrafterMod": [
+      "CraftaniumOre",
+      "DeepslateCraftaniumOre",
+      "BlockOfCraftanium",
+      "CraftaniumIngot",
+      "RawCraftanium",
+      "CraftaniumArmor",
+      "CraftaniumSword",
+      "CraftaniumAxe",
+      "CraftaniumPickaxe",
+      "CraftaniumShovel",
+      "CraftaniumRing",
+      "CraftaniumUpgradeSmithingTemplate"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.craftermod.block_of_craftanium": "Block Of Craftanium",
+      "item.craftermod.craftanium_armor_helmet": "Craftanium Helmet",
+      "block.craftermod.craftanium_ore": "Craftanium Ore",
+      "item.craftermod.craftanium_pickaxe": "Craftanium Pickaxe",
+      "item.craftermod.craftanium_shovel": "Craftanium Shovel",
+      "item.craftermod.craftanium_ingot": "Craftanium Ingot",
+      "block.craftermod.deepslate_craftanium_ore": "Deepslate Craftanium Ore",
+      "item.craftermod.raw_craftanium": "Raw Craftanium",
+      "item.craftermod.craftanium_sword": "Craftanium Sword",
+      "item.craftermod.craftanium_armor_chestplate": "Craftanium  Chestplate",
+      "item.craftermod.craftanium_armor_leggings": "Craftanium  Leggings",
+      "item.craftermod.craftanium_axe": "Craftanium Axe",
+      "item.craftermod.craftanium_upgrade_smithing_template": "Craftanium Upgrade Smithing Template",
+      "item_group.craftermod.crafter_mod": "Crafter Mod",
+      "item.craftermod.craftanium_armor_boots": "Craftanium  Boots",
+      "item.craftermod.craftanium_ring": "Craftanium Ring"
+    },
+    "de_de": {
+      "block.craftermod.block_of_craftanium": "Craftanium Block",
+      "item.craftermod.craftanium_armor_helmet": "Craftanium Helmet",
+      "block.craftermod.craftanium_ore": "Craftaniumerz",
+      "item.craftermod.craftanium_pickaxe": "Craftanium Pickaxe",
+      "item.craftermod.craftanium_shovel": "Craftanium Shovel",
+      "item.craftermod.craftanium_ingot": "Craftaniumbarren",
+      "block.craftermod.deepslate_craftanium_ore": "Tiefendchiefer-Craftaniumerz",
+      "item.craftermod.raw_craftanium": "Rohcraftanium",
+      "item.craftermod.craftanium_sword": "Craftanium Sword",
+      "item.craftermod.craftanium_armor_chestplate": "Craftanium  Chestplate",
+      "item.craftermod.craftanium_armor_leggings": "Craftanium  Leggings",
+      "item.craftermod.craftanium_axe": "Craftanium Axe",
+      "item.craftermod.craftanium_upgrade_smithing_template": "Craftanium Upgrade Smithing Template",
+      "item_group.craftermod.crafter_mod": "Crafter Mod",
+      "item.craftermod.craftanium_armor_boots": "Craftanium  Boots",
+      "item.craftermod.craftanium_ring": "Craftanium Ring"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Recipe",
+        "children": []
+      },
+      {
+        "name": "Block",
+        "children": []
+      },
+      {
+        "name": "Item",
+        "children": []
+      },
+      {
+        "name": "Armor",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Procedure",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "craftermod",
+    "modName": "Crafter Mod",
+    "version": "0.1",
+    "description": "Crafter Mod. Nothing Much.",
+    "author": "LucaCrafterYT",
+    "websiteURL": "https://linktr.ee/lucacrafteryt",
+    "license": "MIT",
+    "serverSideOnly": false,
+    "modPicture": "raw_craftanium",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": ":3",
+    "modElementsPackage": "net.lucacrafter.craftermod"
+  },
+  "mcreatorVersion": 202400342716
+}

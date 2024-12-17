@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "craftermod:blocks/block_of_craftanium",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "craftermod:block_of_craftanium"
+        }
+      ]
+    }
+  ]
+}

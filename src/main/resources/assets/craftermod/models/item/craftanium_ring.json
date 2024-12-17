@@ -1,0 +1,7 @@
+{
+  "parent": "craftermod:custom/craftanium_ring",
+  "textures": {
+    "0": "craftermod:block/craftanium_ring",
+    "particle": "craftermod:item/craftanium_ring"
+  }
+}
