@@ -4,10 +4,9 @@ license="MIT"
 
 [[mods]]
 modId="craftermod"
-version="0.1"
+version="1.1"
 displayName="Crafter Mod"
 displayURL="https://linktr.ee/lucacrafteryt"
-logoFile="logo.png"
 credits=":3"
 authors="LucaCrafterYT"
 description="Crafter Mod. Nothing Much."

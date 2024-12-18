@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "craftermod:craftanium_armor_helmet",
+    "craftermod:craftanium_armor_chestplate",
+    "craftermod:craftanium_armor_leggings",
+    "craftermod:craftanium_armor_boots"
+  ]
+}

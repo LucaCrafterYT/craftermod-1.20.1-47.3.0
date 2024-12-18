@@ -49,6 +49,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/lucacrafter/craftermod/item/CraftaniumIngotItem.java",
+          "src/main/resources/assets/craftermod/models/item/craftanium_ingot_0.json",
           "src/main/resources/assets/craftermod/models/item/craftanium_ingot.json"
         ]
       },
@@ -299,20 +300,6 @@
       "path": "~/Tools"
     },
     {
-      "name": "CraftaniumRing",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "craftanium_ring",
-      "metadata": {
-        "files": [
-          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumRingItem.java",
-          "src/main/resources/assets/craftermod/models/item/craftanium_ring.json"
-        ]
-      },
-      "path": "~/Item"
-    },
-    {
       "name": "CraftaniumUpgradeSmithingTemplate",
       "type": "item",
       "compiles": true,
@@ -377,6 +364,32 @@
         ]
       },
       "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumUpgradeSmithingTemplateDuplicateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_upgrade_smithing_template_duplicate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_upgrade_smithing_template_duplicate_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumUpgradeSmithingTemplateCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_upgrade_smithing_template_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftermod/recipes/craftanium_upgrade_smithing_template_crafting_recipe.json"
+        ]
+      },
+      "path": "~/Recipe"
     }
   ],
   "variable_elements": [],
@@ -404,6 +417,12 @@
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:CraftaniumShovel"
     ],
+    "ITEMS:minecraft:trimmable_armor": [
+      "CUSTOM:CraftaniumArmor.helmet",
+      "CUSTOM:CraftaniumArmor.body",
+      "CUSTOM:CraftaniumArmor.legs",
+      "CUSTOM:CraftaniumArmor.boots"
+    ],
     "BLOCKS:minecraft:beacon_base_blocks": [
       "CUSTOM:BlockOfCraftanium"
     ]
@@ -420,7 +439,6 @@
       "CraftaniumAxe",
       "CraftaniumPickaxe",
       "CraftaniumShovel",
-      "CraftaniumRing",
       "CraftaniumUpgradeSmithingTemplate"
     ]
   },
@@ -440,8 +458,7 @@
       "item.craftermod.craftanium_axe": "Craftanium Axe",
       "item.craftermod.craftanium_upgrade_smithing_template": "Craftanium Upgrade Smithing Template",
       "item_group.craftermod.crafter_mod": "Crafter Mod",
-      "item.craftermod.craftanium_armor_boots": "Craftanium  Boots",
-      "item.craftermod.craftanium_ring": "Craftanium Ring"
+      "item.craftermod.craftanium_armor_boots": "Craftanium  Boots"
     },
     "de_de": {
       "block.craftermod.block_of_craftanium": "Craftanium Block",
@@ -458,8 +475,7 @@
       "item.craftermod.craftanium_axe": "Craftanium Axe",
       "item.craftermod.craftanium_upgrade_smithing_template": "Craftanium Upgrade Smithing Template",
       "item_group.craftermod.crafter_mod": "Crafter Mod",
-      "item.craftermod.craftanium_armor_boots": "Craftanium  Boots",
-      "item.craftermod.craftanium_ring": "Craftanium Ring"
+      "item.craftermod.craftanium_armor_boots": "Craftanium  Boots"
     }
   },
   "foldersRoot": {
@@ -486,10 +502,6 @@
         "children": []
       },
       {
-        "name": "Procedure",
-        "children": []
-      },
-      {
         "name": "Entity",
         "children": []
       }
@@ -498,13 +510,12 @@
   "workspaceSettings": {
     "modid": "craftermod",
     "modName": "Crafter Mod",
-    "version": "0.1",
+    "version": "1.1",
     "description": "Crafter Mod. Nothing Much.",
     "author": "LucaCrafterYT",
     "websiteURL": "https://linktr.ee/lucacrafteryt",
     "license": "MIT",
     "serverSideOnly": false,
-    "modPicture": "raw_craftanium",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

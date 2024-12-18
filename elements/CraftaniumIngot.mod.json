@@ -6,7 +6,22 @@
     "texture": "craftanium_ingot",
     "customModelName": "Normal",
     "customProperties": {},
-    "states": [],
+    "states": [
+      {
+        "renderType": 0,
+        "texture": "craftanium_ingot",
+        "customModelName": "Normal",
+        "stateMap": [
+          {
+            "property": {
+              "name": "lefthanded",
+              "type": "logic"
+            },
+            "value": true
+          }
+        ]
+      }
+    ],
     "name": "Craftanium Ingot",
     "rarity": "COMMON",
     "creativeTabs": [

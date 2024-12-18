@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class DeepslateCraftaniumOreBlock extends Block {
 	public DeepslateCraftaniumOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(4.5f, 3f).requiresCorrectToolForDrops());
 	}
 
 	@Override

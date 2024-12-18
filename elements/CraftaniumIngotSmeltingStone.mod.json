@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:CraftaniumOre"
+      "value": "CUSTOM:RawCraftanium"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:CraftaniumIngot"

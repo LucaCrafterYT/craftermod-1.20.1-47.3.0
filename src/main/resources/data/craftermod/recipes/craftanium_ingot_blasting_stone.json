@@ -5,7 +5,7 @@
   "experience": 1,
   "cookingtime": 100,
   "ingredient": {
-    "item": "craftermod:craftanium_ore"
+    "item": "craftermod:raw_craftanium"
   },
   "result": "craftermod:craftanium_ingot"
 }

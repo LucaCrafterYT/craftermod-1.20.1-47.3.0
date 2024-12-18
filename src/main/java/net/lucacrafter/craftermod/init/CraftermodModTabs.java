@@ -31,7 +31,6 @@ public class CraftermodModTabs {
 				tabData.accept(CraftermodModItems.CRAFTANIUM_AXE.get());
 				tabData.accept(CraftermodModItems.CRAFTANIUM_PICKAXE.get());
 				tabData.accept(CraftermodModItems.CRAFTANIUM_SHOVEL.get());
-				tabData.accept(CraftermodModItems.CRAFTANIUM_RING.get());
 				tabData.accept(CraftermodModItems.CRAFTANIUM_UPGRADE_SMITHING_TEMPLATE.get());
 			})
 

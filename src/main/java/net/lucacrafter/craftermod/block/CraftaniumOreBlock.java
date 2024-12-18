@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class CraftaniumOreBlock extends Block {
 	public CraftaniumOreBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(3f).requiresCorrectToolForDrops());
 	}
 
 	@Override

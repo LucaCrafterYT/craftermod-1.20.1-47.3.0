@@ -25,7 +25,7 @@ public class CraftaniumShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 0;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {

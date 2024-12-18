@@ -16,7 +16,6 @@ import net.lucacrafter.craftermod.item.RawCraftaniumItem;
 import net.lucacrafter.craftermod.item.CraftaniumUpgradeSmithingTemplateItem;
 import net.lucacrafter.craftermod.item.CraftaniumSwordItem;
 import net.lucacrafter.craftermod.item.CraftaniumShovelItem;
-import net.lucacrafter.craftermod.item.CraftaniumRingItem;
 import net.lucacrafter.craftermod.item.CraftaniumPickaxeItem;
 import net.lucacrafter.craftermod.item.CraftaniumIngotItem;
 import net.lucacrafter.craftermod.item.CraftaniumAxeItem;
@@ -38,7 +37,6 @@ public class CraftermodModItems {
 	public static final RegistryObject<Item> CRAFTANIUM_AXE = REGISTRY.register("craftanium_axe", () -> new CraftaniumAxeItem());
 	public static final RegistryObject<Item> CRAFTANIUM_PICKAXE = REGISTRY.register("craftanium_pickaxe", () -> new CraftaniumPickaxeItem());
 	public static final RegistryObject<Item> CRAFTANIUM_SHOVEL = REGISTRY.register("craftanium_shovel", () -> new CraftaniumShovelItem());
-	public static final RegistryObject<Item> CRAFTANIUM_RING = REGISTRY.register("craftanium_ring", () -> new CraftaniumRingItem());
 	public static final RegistryObject<Item> CRAFTANIUM_UPGRADE_SMITHING_TEMPLATE = REGISTRY.register("craftanium_upgrade_smithing_template", () -> new CraftaniumUpgradeSmithingTemplateItem());
 
 	// Start of user code block custom items
