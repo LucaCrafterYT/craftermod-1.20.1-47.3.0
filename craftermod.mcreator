@@ -390,6 +390,20 @@
         ]
       },
       "path": "~/Recipe"
+    },
+    {
+      "name": "CraftaniumHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftanium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/lucacrafter/craftermod/item/CraftaniumHoeItem.java",
+          "src/main/resources/assets/craftermod/models/item/craftanium_hoe.json"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -413,6 +427,9 @@
     ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:CraftaniumSword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:CraftaniumHoe"
     ],
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:CraftaniumShovel"
@@ -439,6 +456,7 @@
       "CraftaniumAxe",
       "CraftaniumPickaxe",
       "CraftaniumShovel",
+      "CraftaniumHoe",
       "CraftaniumUpgradeSmithingTemplate"
     ]
   },
@@ -446,9 +464,10 @@
     "en_us": {
       "block.craftermod.block_of_craftanium": "Block Of Craftanium",
       "item.craftermod.craftanium_armor_helmet": "Craftanium Helmet",
-      "block.craftermod.craftanium_ore": "Craftanium Ore",
       "item.craftermod.craftanium_pickaxe": "Craftanium Pickaxe",
+      "block.craftermod.craftanium_ore": "Craftanium Ore",
       "item.craftermod.craftanium_shovel": "Craftanium Shovel",
+      "item.craftermod.craftanium_hoe": "Craftanium Hoe",
       "item.craftermod.craftanium_ingot": "Craftanium Ingot",
       "block.craftermod.deepslate_craftanium_ore": "Deepslate Craftanium Ore",
       "item.craftermod.raw_craftanium": "Raw Craftanium",
@@ -463,9 +482,10 @@
     "de_de": {
       "block.craftermod.block_of_craftanium": "Craftanium Block",
       "item.craftermod.craftanium_armor_helmet": "Craftanium Helmet",
-      "block.craftermod.craftanium_ore": "Craftaniumerz",
       "item.craftermod.craftanium_pickaxe": "Craftanium Pickaxe",
+      "block.craftermod.craftanium_ore": "Craftaniumerz",
       "item.craftermod.craftanium_shovel": "Craftanium Shovel",
+      "item.craftermod.craftanium_hoe": "Craftanium Hoe",
       "item.craftermod.craftanium_ingot": "Craftaniumbarren",
       "block.craftermod.deepslate_craftanium_ore": "Tiefendchiefer-Craftaniumerz",
       "item.craftermod.raw_craftanium": "Rohcraftanium",

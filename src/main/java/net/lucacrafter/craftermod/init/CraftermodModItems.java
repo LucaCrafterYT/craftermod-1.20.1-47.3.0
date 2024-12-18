@@ -18,6 +18,7 @@ import net.lucacrafter.craftermod.item.CraftaniumSwordItem;
 import net.lucacrafter.craftermod.item.CraftaniumShovelItem;
 import net.lucacrafter.craftermod.item.CraftaniumPickaxeItem;
 import net.lucacrafter.craftermod.item.CraftaniumIngotItem;
+import net.lucacrafter.craftermod.item.CraftaniumHoeItem;
 import net.lucacrafter.craftermod.item.CraftaniumAxeItem;
 import net.lucacrafter.craftermod.item.CraftaniumArmorItem;
 import net.lucacrafter.craftermod.CraftermodMod;
@@ -38,6 +39,7 @@ public class CraftermodModItems {
 	public static final RegistryObject<Item> CRAFTANIUM_PICKAXE = REGISTRY.register("craftanium_pickaxe", () -> new CraftaniumPickaxeItem());
 	public static final RegistryObject<Item> CRAFTANIUM_SHOVEL = REGISTRY.register("craftanium_shovel", () -> new CraftaniumShovelItem());
 	public static final RegistryObject<Item> CRAFTANIUM_UPGRADE_SMITHING_TEMPLATE = REGISTRY.register("craftanium_upgrade_smithing_template", () -> new CraftaniumUpgradeSmithingTemplateItem());
+	public static final RegistryObject<Item> CRAFTANIUM_HOE = REGISTRY.register("craftanium_hoe", () -> new CraftaniumHoeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
